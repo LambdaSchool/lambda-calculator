@@ -1,0 +1,92 @@
+.container{
+	background-color: #7acfd6;
+}
+
+.button-style{
+	margin: 5px;
+	
+}
+
+.button-layout1{
+	width: 186px;
+	border: solid; 
+}
+.button-layout2{
+	width: 174px;
+	border: solid; 
+}
+.button-layout3{
+	width: 57px;
+	border: solid; 
+}
+
+
+.button-style {
+	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+	background-color:#c62d1f;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+
+.button-style:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24437;
+}
+
+.button-style:active {
+	position:relative;
+	top:1px;
+}
+
+
+.logo-container{
+	background-color: #7acfd6
+	
+}
+
+.Display-Section{
+	background-color: #2f2a2a;
+	color: #aaaaaa;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50px;
+	width: 240px;
+	font-size: 2rem;
+	margin-left: 15px;
+	border-radius: 25px;
+}
+
+body{
+	width: 265px;
+	height: 360px;
+}
+
+.button-layout{
+	display: flex;
+}
